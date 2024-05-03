@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(74, 83, 80);
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    min-height: 100;
+    margin: 0;
+}
+.cointainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 86px;
+    height: 250px;
+    padding: 15px;
+    background-color: azure;
+    border-radius: 50px;
+}
+.circle{
+    position: relative;
+    background-color: rgba(0,0, 0, 0.3);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.circle ::after{
+    border-right: 4px solid rgba(255,255, 255, 0.6);
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 5px;
+    left: 4px;
+}
+.circle.red{
+    background-color: red;
+    box-shadow: 0 0 20px 5px red;
+
+}
+.circle.yellow{
+    background-color: yellow;
+    box-shadow: 0 0 20px 5px yellow;
+
+
+    
+}
+.circle.green{
+    background-color: green;
+    box-shadow: 0 0 20px 5px green;
+}

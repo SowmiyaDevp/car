@@ -1,0 +1,28 @@
+nav{
+    background-color: rgb(4, 95, 72);
+    padding: 5px;
+}
+h3{
+    display: inline;
+    color: blueviolet;
+}
+a:hover{
+    padding: 2px;
+    border: 2px solid chartreuse;
+    box-shadow: 10px 10px 10px white;
+    display: inline;
+    color: white;
+}
+
+ul{
+    display: inline;
+    margin-left: 35px;
+}
+
+li{
+    display: inline;
+    color: white;
+    padding: 10px;
+    margin-left: 35px;
+
+}

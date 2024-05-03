@@ -1,0 +1,27 @@
+nav{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 40px;
+}
+a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 2px 2px 2px white;
+}
+ul{
+    display: inline;
+    margin: 35px auto 35px auto;
+}
+li{
+    display: inline;
+    color: white;
+    padding: 10px;
+}
+h2{
+    display: inline;
+    color: white;
+}

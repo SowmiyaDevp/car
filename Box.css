@@ -1,0 +1,18 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(245, 28, 28);
+    border-radius: 15px;
+    scale: .05;
+  
+    
+    transition: all 0.5s;
+}
+  .box:hover {
+    scale: 1;
+    rotate: 180deg;  background-color:pink ; text-align: center;
+    
+    
+    
+
+}  

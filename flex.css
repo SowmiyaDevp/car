@@ -1,0 +1,66 @@
+.title{
+    color: rgb(78, 221, 12);
+    text-align: center;
+    padding: 10px;
+}
+body{
+    background-color: cadetblue;
+    font-family: sans-serif;
+    padding: 2px;
+}
+h1{
+    background-color: blueviolet;
+}
+/* .Ice{
+    width: 250px;
+    margin: 30px;
+    
+}
+.chocalate{
+    width: 250px;
+    margin: 30px;
+}
+.rose{
+    width: 300px;
+    margin: 30px;
+}
+
+.milk{
+    width: 300px;
+    margin: 30px;
+}
+.soup{
+    width: 200px;
+    margin: 20px; */
+/* } */
+h4{
+    font-family: serif;
+    color: rgb(201, 28, 28);
+    padding: 5px;
+    margin: 5px;
+     
+    
+}
+ .container{
+    display: flex;
+    
+    flex-wrap: wrap;
+    
+    
+     
+} 
+.container div{
+    width: 400px;
+    color: antiquewhite;
+    display: flex;
+    /* margin: 20px;
+    padding: 20px; */
+    flex-wrap: wrap;
+    
+
+    
+}
+
+
+
+

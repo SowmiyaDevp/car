@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Traffic Light </title>
+    <link rel="stylesheet" href="Traffic.css">
+</head>
+<body>
+    <div class="container">
+     <div class="circle red"></div>
+     <div class="circle green"></div>
+     <div class="circle yellow"></div>
+
+
+    </div>
+    <script>
+        const circle=document.querySelectorAll('.circle');
+        let activelight=0;
+        setInterval(changeLight,1000);
+        
+        function changeLight(){
+            circle[activelight].className='circle';
+            activelight++;
+            if(activelight>2){
+                activelight=0;
+            }
+            const currentLight=circle[activelight];
+            currentLight.classList.add(currentLight.getAttribute('color'));
+        }
+
+    </script> 
+    
+</body>
+</html>

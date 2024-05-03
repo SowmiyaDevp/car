@@ -1,0 +1,26 @@
+h1{ 
+    
+    font-size: 50px;
+    text-shadow: 2px 3px 4px crimson;
+    
+    
+    }
+p{
+    font-family: cursive;
+    border: 4px solid peru;
+    height: 200px;
+    /* min-width: 200px; */
+    width: 50%;
+    
+    
+    overflow: scroll;
+
+
+}
+.container{
+    border: 1px solid red;
+    width: 50%;
+    height: 50%;
+}
+
+    

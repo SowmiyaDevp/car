@@ -1,0 +1,7 @@
+.gradient{
+    width: 100px;
+    height: 200px;
+    border: 2px solid pink;
+    margin: 100 auto 100 auto;
+    background: -moz-radial-gradient(yello blue red );
+    }

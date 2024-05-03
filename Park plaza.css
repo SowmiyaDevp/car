@@ -1,0 +1,290 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px; 
+    
+}
+nav{
+    background-color:rgba(2, 3, 1, 0.9);
+    padding: 2px;
+    
+
+}
+h1{
+    display: inline;
+    color: indianred;
+    text-transform: uppercase;
+    padding: 20px;
+    
+}
+ul{
+display: inline;
+margin-left: 35%;
+
+    
+    
+}
+li{
+    display: inline;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+
+    
+}
+a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border: 1px solid white;
+    padding: 5px;
+    box-shadow: 2px 2px 2px white;
+}
+ .container{
+    background: url(amara/406529929.jpg)no-repeat center center/cover;
+    height: 600px;
+}
+
+.table{
+
+    margin: 200px 200px 200px 200px;
+
+}
+ th{
+    text-transform: uppercase;
+    border: 2px solid black;
+    padding: 50px;
+}
+td{
+    padding: 20px;
+    border: 2px solid black;
+}
+.Chicken{
+    background: url(amara/chicken-hyderabadi-biryani-01.jpg)no-repeat center center/cover;
+    height: 90px;
+    width: 80px;
+}
+.mutton{
+    background: url(amara/MUTTON-BIRYANI-RECIPE1.jpg)no-repeat center center/cover;
+    height: 80px;
+    width: 50px;
+}
+.Fish{
+    background: url(amara/ceg29dsg_fish-biryani_625x300_16_February_22.webp)no-repeat center center/cover;
+    height: 50px;
+    width: 50px;
+}
+/* body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1px;
+    
+    min-height: 1px;
+    display: grid;
+    place-items: center;
+    color: brown;
+}
+.row{
+    width: 1px;
+    max-width:1px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+
+.row.left{
+    overflow: hidden;
+}
+.row.left img{
+    width: 1px;
+    height: 1px;
+    object-fit: cover;
+}
+.row.right{
+    display: flex;
+    align-items: center;
+
+}
+.row.right.content{
+    padding-left: 2px;
+    line-height: 26px;
+    padding-bottom: 10px;
+
+}
+@media(max-width: 996px){
+    .row.right.content{
+        padding-left: 0;
+    }
+}
+@media(max-width:768px){
+    .row{
+        width: 50px;
+        max-width: 1170px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+
+    }
+}
+
+  */
+  .table{
+    margin:10px;
+  }
+  th{
+    border: 2px solid black;
+    padding: 20px;
+  }
+  td{
+    border: 2px solid black;
+    padding: 20px;
+  }
+  .chocolate{
+    background: url(amara/download.jfif)no-repeat center center/cover;
+    height:50px ;
+    width: 20px;
+
+  }
+.vanilla{
+    background: url(amara/download\ \(1\).jfif)no-repeat center center/cover;
+    height: 50px;
+    width: 20px;
+}
+.ICE{
+    background-color: bisque;
+}
+.butter{
+    background: url(amara/download\ \(2\).jfif)no-repeat center center/cover;
+    height: 10px;
+    width:20px ;
+}
+.black{
+background: url(amara/download\ \(4\).jfif)no-repeat center center/cover;
+height: 20px;
+width: 20px;
+}
+.str{
+    background: url(amara/download\ \(3\).jfif)no-repeat center center/cover;
+    height: 20px;
+    width:20px
+}
+h4{
+    text-transform: uppercase;
+    font-family: serif;
+    color: purple;
+    align-items: center;
+}
+.bbq{
+    background: url(amara/BBQ-Chicken-8.jpg)no-repeat center center/cover;
+    height: 80px ;
+    width: 90px;
+    margin: 20px 20px 20px 20px;
+}
+.Grilled{
+    background: url(amara/Simply-Recipes-Grilled-BBQ-Chicken-LEAD-10-03fd9892eaae4ce1a8a3f4c949657cfd.jpg) no-repeat center center/cover;
+    height: 70px;
+    width: 70px;
+}
+.korean{
+    background: url(amara/Korean-BBQ-Chicken-title-image.jpg) no-repeat center center/cover;
+    height: 80px;
+    width: 70px;
+}
+.chi{
+    background-color: rgb(228, 120, 172);
+}
+h2{
+    font-family: cursive;
+    color:black;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    
+}
+.table{
+    margin:10px;
+  }
+  th{
+    border: 2px solid black;
+    padding: 20px;
+  }
+  td{
+    border: 2px solid black;
+    padding: 20px;
+  }
+.car{
+    background:url(amara/download\ \(7\).jfif)no-repeat center center/cover;
+    height: 50px;
+    width: 60px;
+}
+.corn{
+    background: url(amara/download\ \(6\).jfif) no-repeat center center/cover;
+    height: 50px ;
+    width: 50px;
+}
+.veg{
+    background: url(amara/download\ \(8\).jfif) no-repeat center center/cover;
+    height: 50px;
+    width: 50px;
+}
+.chick{
+    background: url(amara/download\ \(9\).jfif)no-repeat center center/cover;
+    height: 50px;
+    width: 50px;
+}
+.veg{
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+body{
+    background-color: bisque;
+    padding: 50px;
+    margin: 100px 100px 100px 100px;
+}
+h2{
+    font-style: italic;
+    color: crimson;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

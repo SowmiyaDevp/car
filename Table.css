@@ -1,0 +1,17 @@
+.Tab{
+    /* border: 1px solid pink; */
+    margin: 100px 100px 100px 100px;
+    
+
+}
+th{
+    padding: 20px;
+     /* border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black; */
+    border: 2px solid black;
+} 
+td{
+    padding: 10px;
+    border: 2px solid black;
+}
